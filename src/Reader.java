@@ -14,8 +14,8 @@ public class Reader extends JFrame {
     public Reader(String s) {
         super(s);
         setLayout(new FlowLayout());
-        but_sol = new JButton("Расчитать");
-        but_clean = new JButton("Очистить");
+        but_sol = new JButton("Calculate");
+        but_clean = new JButton("Clear");
         label_a = new JLabel("Введите коэфицент при x^4 (a):");
         label_b = new JLabel("Введите коэфицент при x^2 (b)");
         label_c = new JLabel("Введите свободный член у-ния (с):");
